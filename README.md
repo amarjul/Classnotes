@@ -1,13 +1,9 @@
-# ClassNotes Projekt mit CI/CD
-Frontend auf GitHub Pages
+# ClassNotes - CI/CD Pipeline mit Azure & GitHub Actions
 
-Backend auf Azure
+## Projektübersicht
+ClassNotes ist eine Webanwendung mit Backend in C# (.NET) und Frontend in React (Vite), die über eine CI/CD-Pipeline automatisiert bereitgestellt wird.
 
-CRUD Operations per API-Call
-
-## Technologien
-React + Vite
-
-Sqlite
-
-Swagger Doku
+## Architektur
+Backend: C# .NET API auf Azure App Service
+Frontend: React Vite App gehostet auf GitHub Pages
+CI/CD: Automatisierte Pipelines mit GitHub Actions
