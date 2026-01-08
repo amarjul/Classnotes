@@ -1,0 +1,63 @@
+.note-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Einzelne Notiz */
+  .note-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  
+    padding: 0.9rem 1rem;
+    margin-bottom: 0.75rem;
+  
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+  
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  .note-item:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+  }
+  
+  /* Text */
+  .note-text {
+    flex: 1;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #1f2937;
+    word-break: break-word;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    border: none;
+    background: transparent;
+    color: #ef4444;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.35rem 0.55rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: rgba(239, 68, 68, 0.12);
+  }
+  
+  .delete-btn:active {
+    transform: scale(0.95);
+  }
+  
+  .delete-btn:focus-visible {
+    outline: 2px solid #ef4444;
+    outline-offset: 2px;
+  }
+  
